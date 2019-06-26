@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+header {
+    height: 250px;
+    background-color: rgb(0, 136, 255);
+}
+.container {
+    display: flex;
+    .left-panel {
+        width: 30%;
+        background-color: rgb(151, 206, 255);
+    }
+    .content {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        .main-content {
+            width: 60%;
+            text-align: center;
+        }
+        .right-panel {
+            width: 40%;
+        }
+    }
+    footer {
+        width: 100%;
+        background-color: rgb(168, 168, 168);
+    }
+}
+
+.data:nth-of-type(odd) {
+    background-color:rgb(231, 139, 139);
+}
+.data:nth-of-type(even) {
+    background-color:rgb(219, 220, 255);
+    }
