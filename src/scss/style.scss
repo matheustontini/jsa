@@ -35,4 +35,9 @@ header {
 }
 .data:nth-of-type(even) {
     background-color:rgb(219, 220, 255);
-    }
+}
+canvas {
+    border:1px solid black;
+    width: 560px;
+    height: 360px;
+}
